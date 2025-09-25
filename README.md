@@ -26,7 +26,7 @@ Image Integration: Includes the cave entrance image on Home and three interior-f
 Deployment
 The website is deployed via GitHub Pages. To view the live site:
 
-[Insert live URL after deployment]
+(https://noeltsori.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 Setup Instructions
 
@@ -62,3 +62,4 @@ Scalability: Design allows easy addition of new pages or content, with a flexibl
 Changelog
 
 September 18, 2025, 04:31 PM JST: Initial creation with horizontal image gallery on About page for interior focus.
+
