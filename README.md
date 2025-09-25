@@ -1,90 +1,64 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+Panga Ya Saidi Website
+Project Purpose
+This website promotes Panga Ya Saidi, an archaeological cave site in Kilifi County, Kenya, as a tourist destination. It highlights its historical significance, spanning 78,000 years, with a special focus on the cave's interior, and provides information for visitors to plan their visit. Created on September 18, 2025, at 04:31 PM JST.
+Structure
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Home: Features a hero section with a cave image and a call-to-action to the About page.
+About: Details the archaeological history and significance of Panga Ya Saidi's interior, with a horizontal gallery of three interior images.
+Contact: Includes a form for inquiries about tours or additional information.
+File Organization:
+/css/styles.css: Global styles with responsive design and horizontal image gallery layout.
+/js/main.js: JavaScript for navigation toggle and form validation.
+/images/panga-ya-saidi-cave.jpg: Hero image of the cave entrance.
+/images/panga-ya-saidi-cave-interior1.jpg, /images/panga-ya-saidi-cave-interior2.jpg, /images/panga-ya-saidi-cave-interior3.jpg: Interior images for the About page.
+index.html, about.html, contact.html: Main pages with semantic HTML5.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
 
----
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Features
 
-Before you write any code, take time to plan:
+Responsive Design: Mobile-friendly layout with a hamburger menu for screens <768px and a flexible horizontal image gallery.
+Interactivity: Mobile menu toggle and contact form with validation.
+Semantic HTML5: Uses <header>, <nav>, <main>, <section>, and <footer> for accessibility.
+CSS3: Flexbox for layout, including a horizontal image gallery, animations, and media queries for responsiveness.
+Image Integration: Includes the cave entrance image on Home and three interior-focused images on About for visual appeal.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Deployment
+The website is deployed via GitHub Pages. To view the live site:
 
-**Goal:** Show intentional structure and user journey across the site.
+[Insert live URL after deployment]
 
----
+Setup Instructions
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Clone the repository: git clone <repository-url>
+Place the following images in the /images folder:
+panga-ya-saidi-cave.jpg (cave entrance)
+panga-ya-saidi-cave-interior1.jpg (interior layered walls)
+panga-ya-saidi-cave-interior2.jpg (ancient burial site)
+panga-ya-saidi-cave-interior3.jpg (interior with archaeological tools)
 
-Using your plan, begin building:
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Open index.html in a browser for local testing.
+To deploy:
+Create a GitHub repository and push the project files.
+Go to Settings > Pages, select the main branch, and save.
+The live URL will be https://<username>.github.io/<repository-name>.
 
-Each page should:
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Validation and Testing
 
----
+HTML: Validated using the W3C Markup Validator.
+CSS: Validated using the W3C CSS Validator.
+Testing: Tested on Chrome, Firefox, and mobile devices to ensure responsiveness, image loading, and horizontal gallery alignment as of September 18, 2025.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Best Practices
 
-Before deployment, refactor your project to follow production-friendly practices:
+Code Organization: Files in /css, /js, and /images folders with relative paths.
+Clean Code: Semantic HTML, modular CSS, and commented JavaScript.
+Accessibility: Proper HTML structure and high-contrast colors.
+Scalability: Design allows easy addition of new pages or content, with a flexible image gallery.
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Changelog
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+September 18, 2025, 04:31 PM JST: Initial creation with horizontal image gallery on About page for interior focus.
